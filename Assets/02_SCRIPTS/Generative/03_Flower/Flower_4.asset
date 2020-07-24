@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671ac9e6a0792497e842b4712b5c33a9, type: 3}
+  m_Name: Flower_4
+  m_EditorClassIdentifier: 
+  masterScale: 0.045
+  stems:
+  - {fileID: 919132149155446097, guid: cc266cbd571944d2e895474825ba4f6b, type: 3}
+  stemsHeights:
+  - 47
+  stemsWidth:
+  - 0.7
+  corollas:
+  - {fileID: 919132149155446097, guid: ca23fda676d794ca4aa58052d0e1ddef, type: 3}
+  - {fileID: 919132149155446097, guid: b8188d140d3bf429db78e11efa6bda67, type: 3}
+  - {fileID: 919132149155446097, guid: 95dd528ff735c4be5bbc3eb6197e8a73, type: 3}
+  - {fileID: 919132149155446097, guid: 798aba5d1b4ea49958171c86b449868b, type: 3}
+  - {fileID: 919132149155446097, guid: 252d82a06a9a44ed59272f3e43545a98, type: 3}
+  - {fileID: 919132149155446097, guid: 2436fed9059134540896c3f67752e731, type: 3}
+  - {fileID: 919132149155446097, guid: 9bbfae55c398d41878a6cd4330fb456d, type: 3}
+  - {fileID: 919132149155446097, guid: 7e030d7775e7f4f0fb5bb109182043f9, type: 3}
+  stemMat: {fileID: 2100000, guid: 9e025a814bef84e2ea1effa0966e21c8, type: 2}
+  corollaMat: {fileID: 2100000, guid: 4de805b4df3e84608a18c6043048eccd, type: 2}
+  minCollScale: 0.35
+  maxCollScale: 0.84

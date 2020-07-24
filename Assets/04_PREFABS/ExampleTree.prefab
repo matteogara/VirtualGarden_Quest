@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1069356076907287253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069356076907287243}
+  - component: {fileID: 1069356076907287242}
+  m_Layer: 0
+  m_Name: SPAWNER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1069356076907287243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069356076907287253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069356076907287242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069356076907287253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6e3a39db00247e5a99f45ae0b18669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trunk: {fileID: -927199367670048503, guid: dc11137dcc68642ab8c86699568fa409, type: 3}
+  brench: {fileID: -927199367670048503, guid: 5e22966142add422590aa46ef0f141ad, type: 3}
+  foliage_up: {fileID: -927199367670048503, guid: 8e0f212be7dd44f2fb04a8383927d295,
+    type: 3}
+  foliage_down: {fileID: -927199367670048503, guid: 7b91c1993ff12440ebf4aa9744b682af,
+    type: 3}
+  trMat: {fileID: 2100000, guid: 4da77cbbd46f14850b51e7c264357f94, type: 2}
+  folMat: {fileID: 2100000, guid: a85a26e17d32e47b38d77bfd0bf9f4a5, type: 2}
+  trMinScale: 0.7
+  trMaxScale: 1.2
+  brMinH: 2
+  brMaxH: 6
+  brMinScale: 0.8
+  brMaxScale: 1.3
+  largerBrenchesBelow: 1
+  folMinScale: 0.5
+  folMaxScale: 1
+  folOffset: {x: -1.5, y: 0, z: 1.45}

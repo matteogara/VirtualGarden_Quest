@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6656559805724990673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6449286728437535858}
+  - component: {fileID: 5574436742838217408}
+  m_Layer: 0
+  m_Name: ExampleMushrooms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6449286728437535858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6656559805724990673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.023964, y: 9.625132, z: -17.448112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5574436742838217408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6656559805724990673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71724041bc2b04144b1165b6819131fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body:
+  - {fileID: 919132149155446097, guid: 254f2497729bb47368b74708bf95a177, type: 3}
+  - {fileID: 919132149155446097, guid: 26045805e08eb4545a90020857ee7bc5, type: 3}
+  - {fileID: 919132149155446097, guid: 2291a1c8e0a584757b0fec03e5bec672, type: 3}
+  - {fileID: -927199367670048503, guid: bb39c40435e7141669914c3cca7cd719, type: 3}
+  head:
+  - {fileID: 919132149155446097, guid: a508b0255867a44f2a90b79be9dbcdeb, type: 3}
+  - {fileID: 919132149155446097, guid: b6f59559fb78242cd938a63bfb22f7e2, type: 3}
+  - {fileID: 919132149155446097, guid: 191231d7014ac4e68834180e4d05b511, type: 3}
+  - {fileID: 919132149155446097, guid: eda491cab5bdf4b0ca052542846d652f, type: 3}
+  bodyMat: {fileID: 2100000, guid: e390b23c2ac58484d9ca813810148852, type: 2}
+  headMat: {fileID: 2100000, guid: 4ac29394baa2c425bb52c0378768a7c8, type: 2}
+  bodyMinScale: 0.5
+  bodyMaxScale: 1
+  headMinScale: 1
+  headMaxScale: 1.5
+  headOffset: {x: -1.5, y: 0, z: 1.45}

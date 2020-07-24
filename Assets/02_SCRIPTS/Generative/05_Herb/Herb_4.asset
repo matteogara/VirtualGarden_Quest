@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3040ba4dc117f4e53b4071ce4e72dd41, type: 3}
+  m_Name: Herb_4
+  m_EditorClassIdentifier: 
+  masterScale: 0.03
+  tussock: {fileID: 919132149155446097, guid: f2a51d8e635b4451380a9c02dcdd6465, type: 3}
+  tussockMat: {fileID: 2100000, guid: 4de805b4df3e84608a18c6043048eccd, type: 2}
+  tussMinNum: 1
+  tussMaxNum: 4
+  tussMaxDist: 20
+  minScale: 0.2
+  maxScale: 0.6
+  minCollScale: 0.49
+  maxCollScale: 1.26

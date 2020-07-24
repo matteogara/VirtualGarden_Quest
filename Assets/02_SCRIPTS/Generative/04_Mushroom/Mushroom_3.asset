@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a1fe637081e243939762b8663764c18, type: 3}
+  m_Name: Mushroom_3
+  m_EditorClassIdentifier: 
+  masterScale: 0.1
+  body:
+  - {fileID: 919132149155446097, guid: 2fb9cdbda44db4859baa7092130fe04b, type: 3}
+  bodyHeights:
+  - 2.3
+  head:
+  - {fileID: 919132149155446097, guid: 0b1cd5ae8f3e94c438f90fc4e377402c, type: 3}
+  - {fileID: 919132149155446097, guid: 88e17f6c57ead44c787b86dec3c7effa, type: 3}
+  - {fileID: 919132149155446097, guid: 321b35771553a485593dbe3c7c3341a7, type: 3}
+  - {fileID: 919132149155446097, guid: 4812f878169904ba4b108a27d8990f8d, type: 3}
+  - {fileID: 919132149155446097, guid: c7c7dc85e37a3476b9e124f518c6eeec, type: 3}
+  bodyMat: {fileID: 2100000, guid: e5f9081dd0e7344f78d3116cc5ccd014, type: 2}
+  headMat: {fileID: 2100000, guid: 5e38afde04c9441af8cf6bf0e1572ea5, type: 2}
+  bodyMinScale: 0.5
+  bodyMaxScale: 1
+  headMinScale: 1
+  headMaxScale: 1.5
+  minCollScale: 0.35
+  maxCollScale: 0.84
